@@ -1,0 +1,30 @@
+from distutils.core import setup
+from setuptools import find_packages
+
+with open("README.md", "r", encoding="utf-8") as f:
+  long_description = f.read()
+
+setup(name='touchfish_server',
+      version='0.1.1',
+      description='TouchFish 服务端模块',
+      long_description=long_description,
+      long_description_content_type='text/markdown',
+      author='ILoveScratch2',
+      author_email='ilovescratch@foxmail.com',
+      url='https://github.com/ILoveScratch2/TouchFish-Server.git',
+      install_requires=[],
+      license='MPL License',
+      packages=find_packages(),
+      platforms=["all"],
+      classifiers=[
+          'Intended Audience :: Developers',
+          'Operating System :: OS Independent',
+          'Natural Language :: Chinese (Simplified)',
+          'Programming Language :: Python',
+          'Programming Language :: Python :: 3',
+          'Programming Language :: Python :: 3.6',
+          'Programming Language :: Python :: 3.7',
+          'Programming Language :: Python :: 3.8',
+          'Topic :: Software Development :: Libraries'
+      ],
+      )
