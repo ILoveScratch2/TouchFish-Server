@@ -2,8 +2,6 @@
 
 这是一个非官方的 TouchFish Python库服务端实现。
 
-这是一个非官方的 TouchFish Python库客户端实现。
-
 TouchFish: https://github.com/2044-space-elevator/TouchFish
 
 该模块兼容现有的 TouchFish LTS 协议。
